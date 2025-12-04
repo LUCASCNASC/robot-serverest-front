@@ -35,3 +35,4 @@ rfbrowser init
 Esse comando baixa os navegadores (Chromium, Firefox, WebKit).
 
 It is necessary to develop and specify the scenarios.
+- Integrate IA with project.
