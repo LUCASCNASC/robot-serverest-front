@@ -4,9 +4,7 @@ Library    Browser
 *** Keywords ***
 Acessar página
     New Browser    chromium
-    New Page       https://store.maringafc.com/
-    # Get Page Source    AI-powered software testing platform
-
-Minha conta
-    Click    xpath=//a[contains(text(),"Minha Conta")]
-    Wait For Elements State    xpath=//legend[contains(text(), "Já sou cadastrado")]    visible
+    New Page       https://www.parana.pr.gov.br/
+    Wait For Elements State
+        ...    css=#inst-bar a.marca-gov-pr
+        ...    visible
