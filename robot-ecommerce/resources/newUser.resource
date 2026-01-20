@@ -3,7 +3,8 @@ Library    Browser
 
 *** Keywords ***
 Click Cadastre-se
-    Click    text=Cadastre-se
+    Click    xpath=//a[@data-testid='cadastrar']
+    Get Text    text=Cadastrar como administrador?
 
-Página de cadastro deve estar visível
+Validate Register Page
     Get Text    text=Cadastrar como administrador?

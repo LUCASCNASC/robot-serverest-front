@@ -4,9 +4,8 @@ Resource    ../../resources/home.resource
 Resource    ../../resources/newUser.resource
 
 *** Test Cases ***
-Acessar home
-    Acessar página
-
-Clicar Cadastre-se
+Register New User
+    
+    Acess home page
     Click Cadastre-se
-    Página de cadastro deve estar visível
+    Validate Register Page
